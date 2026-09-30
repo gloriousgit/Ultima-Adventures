@@ -178,7 +178,10 @@ namespace Server.Misc
 			AddShoes( newChar );
 
 			//CityInfo city = new CityInfo( "Sosaria", "Moongates", 1961, 3404, 5, Map.Trammel );
-			newChar.MoveToWorld(new Point3D(2008, 1316, 0), Map.Malas);
+			// HopeUO: skip the "Dream State" intro (Malas 2008,1316) and start directly in the
+			// City of Britain, where the intro used to drop players off. Defaults match the
+			// intro's recommended path: Avatar (set above), not SoulBound.
+			newChar.MoveToWorld(new Point3D(2983, 1043, 25), Map.Trammel);
 
 			Console.WriteLine( "Login: {0}: New character being created (account={1})", state, args.Account.Username );
 
