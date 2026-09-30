@@ -2861,7 +2861,7 @@ namespace Server.Multis
 			Account acct = mob.Account as Account;
 			Mobile trans = null;
 
-			for ( int i = 0; i < acct.Length; ++i )
+			for ( int i = 0; acct != null && i < acct.Length; ++i ) // characters without an account (e.g. from shipped saves)
 			{
 				if ( acct[i] != null && acct[i] != mob )
 					trans = acct[i];

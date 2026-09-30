@@ -42,7 +42,7 @@
   <PropertyGroup>
     <DefineConstants>NEWTIMERS;ServUO</DefineConstants>
     <BaseOutputPath>..\</BaseOutputPath>
-    <AssemblyName>Adventures Server</AssemblyName>
+    <AssemblyName>HopeUO Server</AssemblyName>
     <ApplicationIcon>runuo.ico</ApplicationIcon>
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>

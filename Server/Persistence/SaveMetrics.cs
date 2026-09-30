@@ -25,8 +25,8 @@ using System.Text;
 
 namespace Server {
 	public sealed class SaveMetrics : IDisposable {
-		private const string PerformanceCategoryName = "Ultima-Adventures (Runuo 2.2)";
-		private const string PerformanceCategoryDesc = "Performance counters for Ultima-Adventures (Runuo 2.2).";
+		private const string PerformanceCategoryName = "HopeUO (Runuo 2.2)";
+		private const string PerformanceCategoryDesc = "Performance counters for HopeUO (Runuo 2.2).";
 
 		private PerformanceCounter numberOfWorldSaves;
 

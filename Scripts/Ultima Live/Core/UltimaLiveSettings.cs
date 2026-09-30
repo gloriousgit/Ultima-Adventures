@@ -37,7 +37,7 @@ namespace UltimaLive
 {
   public class UltimaLiveSettings
   {
-    public const string UNIQUE_SHARD_IDENTIFIER = "Ultima Adventures"; //Must be 28 characters or less
+    public const string UNIQUE_SHARD_IDENTIFIER = "HopeUO"; //Must be 28 characters or less
 
     public const string ULTIMA_LIVE_ROOT_FOLDER_NAME = "UltimaLive";
     public const string ULTIMA_LIVE_MAP_CHANGES_FOLDER_NAME = "ClientFiles";

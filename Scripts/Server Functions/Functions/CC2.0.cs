@@ -50,6 +50,8 @@ namespace Server.Misc
             if (!paging)
             {
                 string input = Console.ReadLine();
+                if (input == null) // stdin closed (headless/redirected) - stop listening
+                    return;
                 Next(input);
             }
         }

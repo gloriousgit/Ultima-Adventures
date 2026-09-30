@@ -1,0 +1,19 @@
+# Runtime data (world saves, accounts, backups) - never commit
+/Saves/
+/Backups/
+/Logs/
+/Temp/
+/Scripts/Output/
+
+# Build artifacts
+/Server/obj/
+/Server/bin/
+*.pdb
+*.user
+.vs/
+
+# Local client + agent tooling (separate repos / large binary data)
+/Navrey/
+/Client/
+*.log
+launcher_log.txt

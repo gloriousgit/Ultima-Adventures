@@ -22,7 +22,7 @@ namespace Server.Misc
 		{
 			// THE NAME OF YOUR SERVER
 			// DON'T MAKE THE NAME LONGER THAN THE CHARACTERS BELOW OR IT GETS CUT OFF
-			return "Ultima Adventures";
+			return "HopeUO";
 		}
 
 		public static string FilesPath()
